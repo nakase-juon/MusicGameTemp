@@ -8,6 +8,6 @@ public class Notes : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        transform.Translate(-20 * Time.deltaTime, 0, 0);
+        transform.Translate(0, -20 * Time.deltaTime, 0);
     }
 }
